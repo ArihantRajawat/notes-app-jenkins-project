@@ -6,7 +6,7 @@ pipeline {
         stage("Clone Code"){
             steps{
                 git url: "https://github.com/ArihantRajawat/notes-app-jenkins-project.git", branch: "main"
-                echo "Aaj toh LinkedIn Post bannta hai boss"
+                echo "Aaj toh LinkedIn Post bannta hai "
             }
         }
         stage("Build & Test"){
